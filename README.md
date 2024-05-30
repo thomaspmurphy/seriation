@@ -65,7 +65,7 @@ $H_n = \sum_{k=1}^n \frac{1}{k}$
 ### Thue-Morse Series
 The Thue-Morse sequence is a binary sequence that is constructed by starting with 0 and successively appending the bitwise negation (flip of 0 to 1 and 1 to 0) of the sequence obtained so far. This sequence is known for its property of avoiding cubes (three consecutive identical subsequences).
 
-$a_n = \text{sum of binary digits of n} \mod 2
+$a_n = \text{sum of binary digits of n} \mod 2$
 
 ## Installation
 
