@@ -19,9 +19,7 @@ defmodule Seriation.Prime do
     |> Enum.take(count)
   end
 
-  @doc """
-  Checks if a given integer is prime.
-  """
+  # Checking primality (attempting to optimise for performance)
   defp is_prime(2), do: true
   defp is_prime(3), do: true
   defp is_prime(n) when n <= 1, do: false

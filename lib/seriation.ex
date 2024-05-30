@@ -24,6 +24,9 @@ defmodule Seriation do
   # Import functions from prime module
   defdelegate primes(count), to: Seriation.Prime
 
+  # Import functions from sequences with their own module
+  defdelegate thue_morse(count), to: Seriation.ThueMorse, as: :generate
+
   # Import functions from composite sequences module
   defdelegate add_sequences(seq1, seq2), to: Seriation.CompositeSequences
   defdelegate multiply_sequences(seq1, seq2), to: Seriation.CompositeSequences
